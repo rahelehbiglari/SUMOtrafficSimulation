@@ -1,0 +1,13 @@
+# Ignore everything under Data/
+# project data
+Data/
+
+# env & deps
+
+node_modules/
+
+
+# logs
+*.log
+
+

@@ -1,0 +1,5 @@
+- install torch
+- install d2l
+- install torchvision
+- install deap
+- plotly
