@@ -51,7 +51,7 @@ The experiments were developed using:
 
 Traffic data is generated using SUMO simulations.
 
-The script `DataGenerator_parallel` generates random trips for different traffic-density scenarios:
+The script `DataGenerator_parallel.py` generates random trips for different traffic-density scenarios:
 
 - low-density scenario: 15 trips
 - high-density scenario: 25 trips
@@ -76,7 +76,7 @@ The repository includes a redundancy-removal workflow based on pairwise distance
 
 The general workflow is:
 
-1. Run `remove_redundantData`
+1. Run `remove_redundantData.py`
 2. Calculate pairwise distances between samples
 3. Plot the distance heatmap
 4. Remove redundant samples
@@ -86,9 +86,9 @@ The general workflow is:
 
 Relevant scripts include:
 
-- `remove_redundantData`
-- `reTrainter`
-- `predict_deep_model_samples`
+- `remove_redundantData.py`
+- `reTrainter.py`
+- `predict_deep_model_samples.py`
 
 This workflow was used to reduce dataset redundancy while maintaining or improving model performance.
 
@@ -121,3 +121,4 @@ This repository demonstrates experience in:
   year      = {2025},
   address   = {Madrid, Spain}
 }
+```

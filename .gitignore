@@ -1,13 +1,31 @@
-# Ignore everything under Data/
-# project data
-Data/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-# env & deps
+# Environments
+.venv/
+venv/
+env/
 
-node_modules/
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+tempCodeRunnerFile.py
 
-
-# logs
+# Logs
 *.log
 
+# Generated data and outputs
+Data/
+data/
+results/
+outputs/
+plots/
+*.csv
+*.pth
+*.params
 
+# SUMO external tools should not be vendored
+tools/
